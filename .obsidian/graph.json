@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "Rails",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "Algorithms",
+      "color": {
+        "a": 1,
+        "rgb": 13501686
+      }
+    },
+    {
+      "query": "React",
+      "color": {
+        "a": 1,
+        "rgb": 181698
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 583432
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0.3,
+  "nodeSizeMultiplier": 1.325,
+  "lineSizeMultiplier": 1.35052083333333,
+  "collapse-forces": false,
+  "centerStrength": 0.697916666666667,
+  "repelStrength": 14.375,
+  "linkStrength": 0.817708333333333,
+  "linkDistance": 123,
+  "scale": 1.1680777362185146,
+  "close": true
+}

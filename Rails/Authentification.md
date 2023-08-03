@@ -45,14 +45,21 @@ In `config/initializers` add `cors.rb` if it doesn't exist
 # Read more: https://github.com/cyu/rack-cors
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
-    allow do
-        origins 'http://localhost:5173'  # Frontend website url
-
-        resource '*',
-            headers: :any,
-            methods: [:get, :post, :put, :patch, :delete, :options, :head],
-            credentials: true
-    end
+  allow do
+    origins 'http://localhost:5173'  # Frontend website url  
+    resource '*',
+      headers: :any,
+      methods: :any,
+      credentials: true
+  end
+  
+  allow do
+    origins 'https://ProductionUrl.vercel.app'  # Frontend website url  
+    resource '*',
+      headers: :any,
+      methods: :any,
+      credentials: true
+  end
 end
 ```
 
@@ -86,12 +93,13 @@ end
 ### Sign up & Login
 - Create a sessions controller
 ```
-$ rails g controller sessions
+rails g controller sessions
 ```
 Insert a sessions route 
 ```ruby
 resource :sessions
 post '/login',to: 'sessions#create'
+post '/signup',to: 'signups#create'
 ```
 
 - Create function for creation of sessions on **Login**

@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Login-signup-logout.md",
+                "file": "Rails/Rails-configuration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a68bba2da6685b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rails/Rails-configuration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/Login-signup-logout.md",
+                "file": "Rails/Rails-configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/Login-signup-logout.md",
+                "file": "Rails/Rails-configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/Login-signup-logout.md"
+                "file": "Rails/Rails-configuration.md"
               }
             }
           }
@@ -147,15 +160,17 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "55ffd9533ccba007",
+  "active": "6a68bba2da6685b8",
   "lastOpenFiles": [
-    "README.md",
-    "Rails/Authentification.md",
     "Rails/Deployment.md",
-    "React/Login-signup-logout.md",
+    "Rails/Authentification.md",
     "Rails/Rails-configuration.md",
-    "Rails/deploy_review.png",
+    "React/Login-signup-logout.md",
     "Algorithms & Data structures/Big O notation.md",
+    "Algorithms & Data structures/MAP vs SET.md",
+    "Algorithms & Data structures/MAP vs SET.loom",
+    "README.md",
+    "Rails/deploy_review.png",
     "Rails/Rails.md",
     "React/Autherization.md",
     "'React/Autherization'.md",
@@ -165,8 +180,6 @@
     "'..",
     "'../React/Login&Auth'.md",
     "React",
-    "Algorithms & Data structures/MAP vs SET.md",
-    "Algorithms & Data structures/MAP vs SET.loom",
     "Algorithms & Data structures",
     "Rails",
     "[edd-ie/rails-deploment-guide.md",

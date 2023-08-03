@@ -3,11 +3,6 @@ Do the creation process on  [new rails app](Rails/Rails-configuration)
 
 Guide -> [GitHub](https://github.com/edd-ie/rails-deploment-guide)
 
-Configure your project to run in a production environment with *Render*
-```terminal
-$ bundle lock --add-platform x86_64-linux
-```
-
 ### Enable Cors
 
 Run add : 
@@ -24,7 +19,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
     
     resource '*',
             headers: :any,
-            methods: [:get, :post, :put, :patch, :delete, :options, :head]\
+            methods: [:get, :post, :put, :patch, :delete, :options, :head]
 	
 	resource '/orders', # for specific restrictions(optional)
       headers:any,
@@ -74,13 +69,18 @@ set -o errexit
 
 # Build commands for back end
 bundle install
-bundle exec rake db:migrate 
-bundle exec rake db:seed # if you have seed data, run this command for the initial deploy only to avoid duplicate records
+#bundle exec rake db:migrate 
+#bundle exec rake db:seed # if you have seed data, run this command for the initial deploy only to avoid duplicate records
 ```
 
  On the vscode terminal change from PowerShell/cmd to git bash, _This will enable running Linux code_ , run:
 ```sh
 chmod a+x bin/render-build.sh
+```
+
+Configure your project to run in a production environment with *Render*
+```terminal
+$ bundle lock --add-platform x86_64-linux
 ```
 
 ### Creating the Render Web Service

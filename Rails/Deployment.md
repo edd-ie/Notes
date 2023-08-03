@@ -102,8 +102,8 @@ Start Command: bundle exec puma -C config/puma.rb
 7. Back at the web service settings, scroll down and click advanced:
 8. Add environment variables(2)
 ```
-DATABASE_URL : paste the postgres url
-RAILS_MASTER_KEY: copy from 'config/master.key'
+key = DATABASE_URL : value = paste the postgres url
+key = RAILS_MASTER_KEY: value = copy from 'config/master.key'
 ```
 
 9. Complete page should look like: 

@@ -4,31 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "0efc38c8b1f2875a",
+        "id": "575b2836ed9bf0c2",
         "type": "tabs",
         "children": [
           {
-            "id": "55ffd9533ccba007",
+            "id": "32c6721935d20d93",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rails/Rails-configuration.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
-            "id": "6a68bba2da6685b8",
+            "id": "c47ed36e99ea609b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rails/Rails-configuration.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -52,7 +52,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -61,13 +63,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#LaTeX",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -75,10 +79,13 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rails/Rails-configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +112,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -115,10 +123,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rails/Rails-configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -129,7 +138,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -137,12 +148,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Rails/Rails-configuration.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -160,16 +172,21 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "6a68bba2da6685b8",
+  "active": "a23339e65b7e0f2d",
   "lastOpenFiles": [
+    "LaTex/Introduction to LaTex.md",
+    "README.md",
+    "LaTex",
+    "OpenCV/Reading Images.md",
+    "OpenCV/Intro.md",
+    "OpenCV",
+    "Rails/Rails-configuration.md",
     "Rails/Deployment.md",
     "Rails/Authentification.md",
-    "Rails/Rails-configuration.md",
     "React/Login-signup-logout.md",
     "Algorithms & Data structures/Big O notation.md",
     "Algorithms & Data structures/MAP vs SET.md",
     "Algorithms & Data structures/MAP vs SET.loom",
-    "README.md",
     "Rails/deploy_review.png",
     "Rails/Rails.md",
     "React/Autherization.md",

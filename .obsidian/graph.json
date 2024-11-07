@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "Rails",
@@ -38,14 +38,14 @@
   ],
   "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": 0.3,
+  "textFadeMultiplier": -0.2,
   "nodeSizeMultiplier": 1.325,
-  "lineSizeMultiplier": 1.35052083333333,
-  "collapse-forces": false,
+  "lineSizeMultiplier": 2.19270833333333,
+  "collapse-forces": true,
   "centerStrength": 0.697916666666667,
   "repelStrength": 14.375,
-  "linkStrength": 0.817708333333333,
-  "linkDistance": 123,
-  "scale": 1.1680777362185146,
-  "close": true
+  "linkStrength": 0.864583333333333,
+  "linkDistance": 130,
+  "scale": 0.5942734315816848,
+  "close": false
 }

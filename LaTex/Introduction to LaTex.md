@@ -1,11 +1,11 @@
 #LaTeX #documents
 
-# Download
+# Download $\LaTeX$
 - [compiler]([Home](https://miktex.org/))
 - [Text editor]([Texmaker (free cross-platform latex editor)](https://www.xm1math.net/texmaker/download.html))
 # Creating a document
 ## Preamble
-The section of the document before the `\begin{document}` used to specify type and packages
+The section of the document before the `\begin{document}` used to specify type and packages 
 
 To begin instantiate the document by specifying the type of document you are creating using:
 ```LaTex
@@ -83,13 +83,13 @@ To have the equations occupy their own lines eg. on textbooks encase it in `$$..
 
 ## Brackets and symbols
 In math mode:
-- square brackets `$[...]$`
-- curly braces `$\{...\}$` 
-- angular brackets `$\langle...\rangle$`
-- dollar sign `$\$10.5$`
-- fractions `$\frac{1}{2+3}$`
-- To in case fraction in brackets `$\left(...\right)$`   
-- Fraction with bracket on onesie `$\left. \frac{}{}\right|$`
+- square brackets $[ ...]$
+- curly braces $\{...\}$
+- angular brackets $\langle ...\rangle$
+- dollar sign $\$10.5$
+- fractions $\frac{1}{2+3}$
+- To in case fraction in brackets $\left(\frac{1}{2+3}\right)$
+- Fraction with bracket on onesie $\left. \frac{1}{2+3}\right|$ 
 - Subscript `$_{blah}$` 
 
 ```latex
@@ -149,3 +149,5 @@ $f(x)$ & 4 & 5 & 6\\ \hline
 \caption{x values for f(x)}
 \end{table}
 ```
+
+

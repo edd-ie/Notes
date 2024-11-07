@@ -1,11 +1,11 @@
 {
 	"id": "notion-like-tables",
 	"name": "DataLoom",
-	"minAppVersion": "1.2.0",
-	"description": "Weave together data from diverse sources into a cohesive table view. Inspired by Excel Spreadsheets and Notion.so.",
-	"author": "Trey Wallis",
-	"authorUrl": "https://github.com/trey-wallis",
+	"minAppVersion": "1.4.0",
+	"description": "Weave together data from diverse sources into different views. Inspired by Excel Spreadsheets and Notion.so.",
+	"author": "DecafDev",
+	"authorUrl": "https://github.com/decaf-dev",
 	"isDesktopOnly": false,
-	"fundingUrl": "https://www.buymeacoffee.com/treywallis",
-	"version": "8.0.0"
+	"fundingUrl": "https://ko-fi.com/decaf_dev",
+	"version": "8.16.1"
 }
